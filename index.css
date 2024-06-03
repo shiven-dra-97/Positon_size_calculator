@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    background-image: url(/shapes.svg);
+    background-size: cover;
+
+}
+
+.right-section {
+    width: 50%;
+    margin: 10px;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+    width: 100%;
+    
+    
+
+}
+
+.head-one {
+    color: #FFC470;
+    font-size: 60px;
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+.head-two {
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: bold;
+    align-self: center;
+}
+
+.head-three {
+    color: #4793AF;
+    font-size: 100px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.note{
+    color: white;
+    font-size: large;
+    width: 80%;
+    
+}
+
+.right-section-lower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+.image{
+    height: 180px;
+    width: 200px;
+}
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.Calculator{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+   border: #ffffff 1px solid;
+    backdrop-filter: blur(5px);
+   height: 50%;
+}
+
+.Calculate-button{
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: #4793AF;
+    border: none;
+}
+
+.stoploss{
+    height: 30px;
+    width: 80%;
+    margin-bottom: 5%;
+    
+}
+
+.risk{
+    height: 30px;
+    width: 80%;
+    margin-bottom: 5%;
+}
+
+.lb{
+    align-self: flex-start;
+    padding-left: 10%;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    .right-section{
+        display: none;
+    }
+    .left-section{
+        width: 100%;
+       
+    }
+  }
+
+
+  .how-it-works{
+    margin-top: 5%;
+    color: white;
+    border: white solid 1px;
+    padding: 10px;
+  }
